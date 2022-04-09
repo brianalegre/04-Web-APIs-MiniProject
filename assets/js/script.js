@@ -1,18 +1,19 @@
-// Variables 
-
+// Window Document Variables
 var startButton = document.querySelector(".start-button");
 var timeEl = document.querySelector(".timer-count");
+
 
 // Initial Time to Complete Game
 var secondsLeft = 10;
 
+// Words to guess
 var words = ["Brian", "Alegre", "Kevin", "Allec", "Phillip"]
 
 
 
-// Function for starting the game
-startButton.addEventListener("click", setTime)    // Need to definte startGame()
 
+// Function for starting the game
+startButton.addEventListener("click", setTime)    // Change to gameStart() later
 
 //  Start Timer
 function setTime() {
